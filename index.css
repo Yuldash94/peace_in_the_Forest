@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+header {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.08);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+.header {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_button {
+    background: #5B6460;
+    padding: 16px 60px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 14px;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.header_menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 2rem;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+}
+.header_menu > li {
+    list-style: none;
+}
+main {
+    margin-top: 15vh;
+}
+.main_intro {
+    width: 100%;
+    height: 95vh;
+    background-image: url(./img/top_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main_intro_opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(51, 51, 51, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    padding: 5em 3em;
+    position: relative;
+}
+.intro_h {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+}
+.intro_p {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 4em;
+}
+.intro_arrow {
+    position: absolute;
+    width: 8%;
+    top: 92%;
+    right: 43%;
+    display: flex;
+    justify-content: space-between;
+}
+.arrow_left {
+    transform: rotate(180deg);
+}
+.main_cabins {
+    width: 100%;
+    height: 135vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cabins_top {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.top_text {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.top_text > h2 {
+    font-weight: 400;
+    font-size: 40px;
+    color: #5B6460;
+}
+.top_text > p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+}
+.top_text > a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #5B6460;
+    text-decoration: none;
+}
+.top_text > a > span {
+    content: "";
+    display: block;
+    background-color: #5B6460;
+    width: 82px;
+    height: 2px;
+}
+.cabins_top_img {
+    width: 45%;
+    height: 100%;
+    background-image: url(./img/cab_img_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cabins_bottom {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cabins_bottom > img {
+    height: 100%;
+    width: 30%;
+}
+.main_forest {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.forest_map {
+    width: 55%;
+    height: 100%;
+    background-image: url(./img/forest_map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.forest_map_opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(62, 68, 62, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forest_text {
+    background: #E9ECE0;
+}
+.map  {
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+.map_1 {
+    width: 30%;
+    height: 30%;
+    background-color: rgb(255, 255, 255, 0.15);
+}
+.map_2 {
+    width: 80%;
+    height: 80%;
+    background-color: rgb(255, 255, 255, 0.25);
+}
+.map_3 {
+    width: 70%;
+    height: 70%;
+}
+.main_facilities {
+    width: 100%;
+    height: 60vh;
+    background: #5B6460;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.facilities_h {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.facilities_items {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.facilities_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.facilities_item > p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.main_about_us {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.about_us_left {
+    width: 50%;
+    height: 100%;
+    background-image: url(./img/about_us_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about_us_right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./img/about_us_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.more_about_us {
+    width: 11%;
+    height: 32%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #E9ECE0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: #333333;
+    top: calc(50% - 16%);
+    left: calc(50% - 5.5%);
+}
+footer {
+    width: 100%;
+    height: 60vh;
+    background-color: #5B6460;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+.footer_top {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_top > h3 {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+}
+.footer_links {
+    width: 45%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 14px;
+    cursor: pointer;
+}
+.footer_center{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center_left {
+    width: 35%;
+}
+.center_left > form {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 10px;
+}
+.center_left > form > input {
+    background: none;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    outline: none;
+}
+.center_left > form > input[type="email"]{
+    width: 85%;
+}
+.center_left > form > input[type="button"]{
+    width: 10%;
+    background-image: url(./img/arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.center_left > p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(255, 255, 255, 0.7);
+}
+.center_right {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.footer_bottom{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.footer_bottom > p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(239, 239, 239, 0.7);
+}
